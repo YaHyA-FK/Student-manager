@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>main.png</file>
+        <file>images/etud.png</file>
+        <file>mainaddstudent.png</file>
+        <file>mainindex.png</file>
+        <file>mainlist.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/new/prefix1">
+        <file>images/294-2947101_add-student-clip-art-at-clker-add-student.png</file>
+        <file>images/375-3752606_homepage-icon-house-logo-png-white.png</file>
+        <file>images/847977-200.png</file>
+        <file>images/2891148.png</file>
+        <file>images/31631915367osnbo8bns2l5yxoye3vm0yqten7dpvr2dlsp7wwxbxtlnnyzkcqqsdi5tzivxuuiun7ybau4atrz7amnqozue37efb6vzeb5dzgt.png</file>
+        <file>images/Academic-Hat.png</file>
+        <file>images/edit.png</file>
+        <file>images/etud.png</file>
+        <file>images/ID.png</file>
+        <file>images/liste.png</file>
+        <file>images/plus.png</file>
+        <file>images/Tools.png</file>
+        <file>images/Minus.png</file>
+    </qresource>
+</RCC>

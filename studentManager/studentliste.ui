@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>studentliste</class>
+ <widget class="QDialog" name="studentliste">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1259</width>
+    <height>753</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="logo.qrc">
+    <normaloff>:/new/prefix1/images/ID.png</normaloff>:/new/prefix1/images/ID.png</iconset>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1261</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image:url(:/image/mainlist.png)
+}</string>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>560</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton{
+background-color:#0d6efd;
+border-radius: 10%;
+}
+#pushButton:hover{
+background-color:#6610f2;
+cursor: pointer;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>charge the liste</string>
+    </property>
+    <property name="icon">
+     <iconset resource="logo.qrc">
+      <normaloff>:/new/prefix1/images/liste.png</normaloff>:/new/prefix1/images/liste.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>871</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat ExtraBold</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#tableWidget{
+font-size : 25px;
+background-color:rgba(0, 152, 0, 0.496);
+border: 1px solid black;
+border-radius: 10%;
+}</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>110</y>
+      <width>771</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#tableView{
+font-size:11px;
+background-color:rgba(0, 61, 153, 0.659);
+border: 1px solid black;
+border-radius: 10%;
+color:black;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>560</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_2{
+background-color:#0d6efd;
+border-radius: 10%;
+}
+#pushButton_2:hover{
+background-color:#6610f2;
+cursor: pointer;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>close</string>
+    </property>
+    <property name="icon">
+     <iconset resource="logo.qrc">
+      <normaloff>:/new/prefix1/images/31631915367osnbo8bns2l5yxoye3vm0yqten7dpvr2dlsp7wwxbxtlnnyzkcqqsdi5tzivxuuiun7ybau4atrz7amnqozue37efb6vzeb5dzgt.png</normaloff>:/new/prefix1/images/31631915367osnbo8bns2l5yxoye3vm0yqten7dpvr2dlsp7wwxbxtlnnyzkcqqsdi5tzivxuuiun7ybau4atrz7amnqozue37efb6vzeb5dzgt.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>30</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arty Signature</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_3{
+background-color:#0d6efd;
+border-radius: 10%;
+}
+#pushButton_3:hover{
+background-color:#6610f2;
+cursor: pointer;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>HOME</string>
+    </property>
+    <property name="icon">
+     <iconset resource="logo.qrc">
+      <normaloff>:/new/prefix1/images/375-3752606_homepage-icon-house-logo-png-white.png</normaloff>:/new/prefix1/images/375-3752606_homepage-icon-house-logo-png-white.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>tableWidget</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>tableView</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo.qrc"/>
+  <include location="logo.qrc"/>
+  <include location="logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

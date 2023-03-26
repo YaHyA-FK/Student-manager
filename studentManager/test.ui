@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>test</class>
+ <widget class="QDialog" name="test">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1387</width>
+    <height>983</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>add student</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="logo.qrc">
+    <normaloff>:/new/prefix1/images/294-2947101_add-student-clip-art-at-clker-add-student.png</normaloff>:/new/prefix1/images/294-2947101_add-student-clip-art-at-clker-add-student.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralWidget{
+border-image: url(&quot;/image/main.png&quot;)
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>0</y>
+     <width>1411</width>
+     <height>981</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image:url(:/image/mainaddstudent.png)
+}</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>801</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Aref_Menna</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox{
+font-size : 25px;
+background-color:rgba(0, 152, 0, 0.496);
+border: 1px solid black;
+border-radius: 10%;
+}</string>
+    </property>
+    <property name="title">
+     <string>student information :</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>550</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MV Boli</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#pushButton{
+background-color:#0d6efd;
+border-radius: 10%;
+}
+#pushButton:hover{
+background-color:#6610f2;
+cursor: pointer;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logo.qrc">
+       <normaloff>:/new/prefix1/images/plus.png</normaloff>:/new/prefix1/images/plus.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>320</y>
+       <width>71</width>
+       <height>89</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#label_6{
+font-size:15px;
+}</string>
+     </property>
+     <property name="text">
+      <string>anne :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>330</y>
+       <width>71</width>
+       <height>89</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#label_6{
+font-size:15px;
+}</string>
+     </property>
+     <property name="text">
+      <string>filier :</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>671</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">#label_3{
+font-size:15px;
+}</string>
+        </property>
+        <property name="text">
+         <string>first name:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">#label_4{
+font-size:15px;
+}</string>
+        </property>
+        <property name="text">
+         <string>last name:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>240</y>
+       <width>671</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">#label_5{
+font-size:15px;
+}</string>
+        </property>
+        <property name="text">
+         <string>adresse:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_3"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>410</y>
+       <width>671</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">#label_6{
+font-size:15px;
+}</string>
+        </property>
+        <property name="text">
+         <string>password :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_4"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>360</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>choose one</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>first year</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>second year</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>third year </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>year 4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>year 5</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_3">
+     <property name="geometry">
+      <rect>
+       <x>146</x>
+       <y>359</y>
+       <width>211</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>choose one ...</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>INGÉNIERIE AUTOMATISMES ET INFORMATIQUE INDUSTRIELLE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>
+GÉNIE INDUSTRIEL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>
+GÉNIE CIVIL, BÂTIMENTS ET TRAVAUX PUBLICS (BTP)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>INGÉNIERIE FINANCIÈRE ET AUDIT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>INGÉNIERIE INFORMATIQUE ET RÉSEAUX</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>550</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MV Boli</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#pushButton_2{
+background-color:#0d6efd;
+border-radius: 10%;
+}
+#pushButton_2:hover{
+background-color:#6610f2;
+cursor: pointer;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>close</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logo.qrc">
+       <normaloff>:/new/prefix1/images/31631915367osnbo8bns2l5yxoye3vm0yqten7dpvr2dlsp7wwxbxtlnnyzkcqqsdi5tzivxuuiun7ybau4atrz7amnqozue37efb6vzeb5dzgt.png</normaloff>:/new/prefix1/images/31631915367osnbo8bns2l5yxoye3vm0yqten7dpvr2dlsp7wwxbxtlnnyzkcqqsdi5tzivxuuiun7ybau4atrz7amnqozue37efb6vzeb5dzgt.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>50</y>
+       <width>651</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MV Boli</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#label{
+
+color : red;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1052</x>
+      <y>30</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arty Signature</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_3{
+background-color:#0d6efd;
+border-radius: 10%;
+}
+#pushButton_3:hover{
+background-color:#6610f2;
+cursor: pointer;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>HOME</string>
+    </property>
+    <property name="icon">
+     <iconset resource="logo.qrc">
+      <normaloff>:/new/prefix1/images/375-3752606_homepage-icon-house-logo-png-white.png</normaloff>:/new/prefix1/images/375-3752606_homepage-icon-house-logo-png-white.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
